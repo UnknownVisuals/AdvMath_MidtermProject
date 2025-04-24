@@ -6,8 +6,12 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "kagglehub>=0.3.11",
-    "scikit-learn>=1.6.1",
+    "keras-tuner>=1.4.7",
+    "scikeras>=0.13.0",
+    "scikit-learn==1.5.2",
+    "scikit-optimize>=0.10.2",
     "seaborn>=0.13.2",
+    "skorch>=1.1.0",
     "tensorflow>=2.19.0",
 ]
 
